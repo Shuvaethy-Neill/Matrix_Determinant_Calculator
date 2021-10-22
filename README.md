@@ -36,8 +36,7 @@ If you do not have Linux installed on your machine, you can also create and use 
     - Download link: https://archives.fedoraproject.org/pub/archive/fedora/linux/releases/30/Workstation/x86_64/iso/
 
 
-If you are a Carleton University student, you can execute this program through the SCE lab computers. 
-Accessing the lab computers:
+If you are a Carleton University student, you can execute this program through the SCE lab computers:
 1. Ensure that you know the login credentials to your SCE account (Note: the login credentials to your SCE account are different from your MC1 account)
 2. Connect to the Carleton University VPN
 3. Open the terminal of your personal laptop device
