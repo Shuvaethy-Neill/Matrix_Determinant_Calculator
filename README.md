@@ -51,7 +51,7 @@ You will now be connected to the lab computer.
 --------------------------------------------
 USAGE
 --------------------------------------------
-Navigate to the directory in which these files are stored (you can do this using the cd command). For example:
+Navigate to the directory in which these files are stored. You can do this using the cd command:
 
     cd directory_name
     
