@@ -16,9 +16,10 @@ M = a b c
 The parent process will fork three child processes P1, P2, P3. The computation of the determinant is done by all the three child processes, where P1 computes a(ei-fh), P2 computes b(fg-di), and P3 computes c(dh-eg). The result of each child computation is summed to find the determinant of M. 
 
 The program will print the following:
-- determinant of the matrix
-- largest integer of the matrix
-- the time required to perform all the child process operations
+- the current process that is running
+- the determinant of the matrix
+- the largest integer of the matrix
+- the time it took to perform all the child process operations
 
 The following three files are included:  
 - DET.c
@@ -61,9 +62,7 @@ Before executing the program to calculate the determinant of the matrix, you nee
 To do so, open the DET.c file using the following command:
     
     vi DET.c
-The file will be opened with all of its content displayed. You can navigate your cursor through the code by using the up, down, left, and right arrow keys on your keyboard. To edit the values of the matrix M, navigate to the spot you would like to change and press the 'i' key on you keyboard to enter insert mode. 
-
-file and change the values in matrix M on line ________. 
+The file will be opened with all of its content displayed. You can navigate your cursor through the code by using the up, down, left, and right arrow keys on your keyboard. To edit the values of the matrix M, navigate to the line where it is initialized, and press the 'i' key on you keyboard to enter insert mode. 
 
 For example, if you wanted this matrix:
 M = 20 20 50
@@ -72,10 +71,18 @@ M = 20 20 50
     
 then change line _____ to int M [SIZE][SIZE] = {{20, 20, 50}, {10, 6, 70}, {40, 3, 2}};
 
-To compile the program enter the following:
+Once you are done editing the values,  press the 'esc' key on your keyboard to get out of insert mode. Then type the following to save and exit to go back to your directory in the terminal:
+
+    :wq
+
+Since changes have been made to the code, you will need to compile DET.c by entering the following in your terminal:
 
     gcc DET.c -o DET
     
+This will create an executable file 'DET' that you can run.
+
 To run the program after compilation enter the following:
 
     ./DET
+
+The expected output resulting from the execution of the program is the current process that is running, the determinant of the matrix, the largest integer of the matrix, and the time it took to perform all the child process operations.
