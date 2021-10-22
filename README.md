@@ -28,9 +28,8 @@ The following two files are included:
 INSTALLATION & SETUP
 --------------------------------------------
 You must have access to a Linux operating system in order to execute this program. 
-If you do not have Linux installed on your machine, you can also create and use a virtual machine. 
 
-Creating a virtual machine:
+If you do not have Linux installed on your machine, you can also create and use a virtual machine:
 1. Download Oracle VirtualBox and create virtual machine
     - Download link: https://www.virtualbox.org/wiki/Download_Old_Builds_6_0
 2. Download Fedora 30 ISO in the newly created virtual machine to be able to run Linux
@@ -38,7 +37,6 @@ Creating a virtual machine:
 
 
 If you are a Carleton University student, you can execute this program through the SCE lab computers. 
-
 Accessing the lab computers:
 1. Ensure that you know the login credentials to your SCE account (Note: the login credentials to your SCE account are different from your MC1 account)
 2. Connect to the Carleton University VPN
