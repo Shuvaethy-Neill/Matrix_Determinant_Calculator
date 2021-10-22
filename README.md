@@ -46,6 +46,9 @@ If you are a Carleton University student, you can execute this program through t
 
 You will now be connected to the lab computer. 
 
+--------------------------------------------
+COMPILE & EXECUTE TEST CASES
+--------------------------------------------
 Navigate to the directory in which these files are stored (you can do this using the cd command). For example:
 
     cd directory_name
@@ -59,4 +62,3 @@ To compile the program enter the following:
 To run the program after compilation enter the following:
 
     ./DET
-    
