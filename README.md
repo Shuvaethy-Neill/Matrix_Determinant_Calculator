@@ -13,9 +13,7 @@ This concurrent program consists of three processes that compute the determinant
 Matrix M is given by:
 
 M = a b c
-
     d e f
-    
     g h i
 
 The parent process will fork three child processes P1, P2, P3. The computation of the detrminant is done by all the three child processes, where P1 computes a(ei-fh), P2 computes b(fg-di), and P3 computes c(dh-eg). 
