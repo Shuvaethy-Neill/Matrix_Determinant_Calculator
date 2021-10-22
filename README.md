@@ -12,6 +12,6 @@ It will print the following:
 - largest integer of the matrix
 - the time required to perform all the child process operations
 
-Two files are required to successfully execute the program:  
+The following two files are required:  
 - DET.c
 - DET.h
