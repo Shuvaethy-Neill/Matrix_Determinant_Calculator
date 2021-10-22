@@ -38,7 +38,7 @@ If you do not have Linux installed on your machine, you can also create and use 
 
 If you are a Carleton University student, you can execute this program through the SCE lab computers:
 1. Ensure that you know the login credentials to your SCE account (Note: the login credentials to your SCE account are different from your MC1 account)
-2. Connect to the Carleton University VPN
+2. Connect to the Carleton University Remote VPN
 3. Open the terminal of your personal laptop device
 4. Type the following command: ssh -p 30003 your_username@machine_number.labs.sce.carleton.ca
         Ex. ssh -p 30003 shuvaethyneill@me3475-33.labs.sce.carleton.ca
