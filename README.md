@@ -41,7 +41,7 @@ If you are a Carleton University student, you can execute this program through t
 
 Accessing the lab computers:
 1. Ensure that you know the login credentials to your SCE account (Note: the login credentials to your SCE account are different from your MC1 account)
-2. Connct to the Carleton University VPN
+2. Connect to the Carleton University VPN
 3. Open the terminal of your personal laptop device
 4. Type the following command: ssh -p 30003 your_username@machine_number.labs.sce.carleton.ca
         Ex. ssh -p 30003 shuvaethyneill@me3475-33.labs.sce.carleton.ca
@@ -50,6 +50,7 @@ Accessing the lab computers:
 You will now be connected to the lab computer. 
 
 Navigate to the directory in which these files are stored (you can do this using the cd command).
+
     - Ex: cd directory_name
     
 Ensure that you have both the DET.c source file and DET.h header file stored in the same directory.
