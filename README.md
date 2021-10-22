@@ -47,13 +47,13 @@ If you are a Carleton University student, you can execute this program through t
 You will now be connected to the lab computer. 
 
 --------------------------------------------
-COMPILE & EXECUTE TEST CASES
+USAGE
 --------------------------------------------
 Navigate to the directory in which these files are stored (you can do this using the cd command). For example:
 
     cd directory_name
     
-Ensure that you have both the DET.c source file and DET.h header file stored in the same directory.
+Ensure that you have both the DET.c source file and the supporting DET.h header file stored in the same directory.
 
 To compile the program enter the following:
 
