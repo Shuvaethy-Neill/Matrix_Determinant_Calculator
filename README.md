@@ -75,11 +75,11 @@ Once you are done editing the values,  press the 'esc' key on your keyboard to g
 
     :wq
 
-Since changes have been made to the code, you will need to compile DET.c by entering the following in your terminal:
+Since changes have been made to the code, you will need to compile the file. Since the compile command is in the provided Makefile, you will just need to type the following in your terminal:
 
-    gcc DET.c -o DET
+    make
     
-This will create an executable file 'DET' that you can run.
+This will create an executable file 'DET' that you can run (as per the command written in the Makefile).
 
 To run the program after compilation enter the following:
 
