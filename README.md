@@ -20,9 +20,10 @@ The program will print the following:
 - largest integer of the matrix
 - the time required to perform all the child process operations
 
-The following two files are included:  
+The following three files are included:  
 - DET.c
 - DET.h
+- Makefile
 
 --------------------------------------------
 INSTALLATION & SETUP
@@ -53,7 +54,23 @@ Navigate to the directory in which these files are stored (you can do this using
 
     cd directory_name
     
-Ensure that you have both the DET.c source file and the supporting DET.h header file stored in the same directory.
+Ensure that you have both the DET.c source file and the supporting DET.h header file stored in the same directory. You can verify this by using the ls command and ensuring that th output displays 'DET.c', 'DET.h' and Makefile. 
+
+Before executing the program to calculate the determinant of the matrix, you need to initialize the values by hardcoding them in the executable file on line _______.
+
+To do so, open the DET.c file using the following command:
+    
+    vi DET.c
+The file will be opened with all of its content displayed. You can navigate your cursor through the code by using the up, down, left, and right arrow keys on your keyboard. To edit the values of the matrix M, navigate to the spot you would like to change and press the 'i' key on you keyboard to enter insert mode. 
+
+file and change the values in matrix M on line ________. 
+
+For example, if you wanted this matrix:
+M = 20 20 50
+    10  6 70
+    40  3  2
+    
+then change line _____ to int M [SIZE][SIZE] = {{20, 20, 50}, {10, 6, 70}, {40, 3, 2}};
 
 To compile the program enter the following:
 
