@@ -32,12 +32,12 @@ If you do not have Linux installed on your machine, you can also create and use 
 
 Creating a virtual machine:
 1. Download Oracle VirtualBox and create virtual machine
-    - Doownload link: https://www.virtualbox.org/wiki/Download_Old_Builds_6_0
+    - Download link: https://www.virtualbox.org/wiki/Download_Old_Builds_6_0
 2. Download Fedora 30 ISO in the newly created virtual machine to be able to run Linux
     - Download link: https://archives.fedoraproject.org/pub/archive/fedora/linux/releases/30/Workstation/x86_64/iso/
 
 
-If you ae a Carleton University student, you can execute this program through the SCE lab computers. 
+If you are a Carleton University student, you can execute this program through the SCE lab computers. 
 
 Accessing the lab computers:
 1. Ensure that you know the login credentials to your SCE account (Note: the login credentials to your SCE account are different from your MC1 account)
@@ -47,4 +47,16 @@ Accessing the lab computers:
         Ex. ssh -p 30003 shuvaethyneill@me3475-33.labs.sce.carleton.ca
 5. Enter your SCE account password
 
-You will now be connected to the lab computer.
+You will now be connected to the lab computer. 
+
+Navigate to the directory in which these files are stored (you can do this using the cd command).
+    - Ex: cd directory_name
+    
+Ensure that you have both the DET.c source file and DET.h header file stored in the same directory.
+
+To compile the program enter the following:
+    gcc DET.c -o DET
+    
+To run the program after compilation enter the following:
+    ./DET
+    
