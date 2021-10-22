@@ -49,15 +49,17 @@ Accessing the lab computers:
 
 You will now be connected to the lab computer. 
 
-Navigate to the directory in which these files are stored (you can do this using the cd command).
+Navigate to the directory in which these files are stored (you can do this using the cd command). For example:
 
-    - Ex: cd directory_name
+    cd directory_name
     
 Ensure that you have both the DET.c source file and DET.h header file stored in the same directory.
 
 To compile the program enter the following:
+
     gcc DET.c -o DET
     
 To run the program after compilation enter the following:
+
     ./DET
     
