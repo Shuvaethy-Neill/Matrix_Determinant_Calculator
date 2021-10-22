@@ -16,9 +16,9 @@ M = a b c
     d e f
     g h i
 
-The parent process will fork three child processes P1, P2, P3. The computation of the detrminant is done by all the three child processes, where P1 computes a(ei-fh), P2 computes b(fg-di), and P3 computes c(dh-eg). 
+The parent process will fork three child processes P1, P2, P3. The computation of the determinant is done by all the three child processes, where P1 computes a(ei-fh), P2 computes b(fg-di), and P3 computes c(dh-eg). The result of each child computation is stored in an array and its content is later summed to find the determinant of M. 
 
-It will print the following:
+The program will print the following:
 - determinant of the matrix
 - largest integer of the matrix
 - the time required to perform all the child process operations
