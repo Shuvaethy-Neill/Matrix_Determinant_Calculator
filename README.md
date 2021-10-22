@@ -55,7 +55,7 @@ Navigate to the directory in which these files are stored. You can do this using
 
     cd directory_name
     
-Ensure that you have both the DET.c source file and the supporting DET.h header file stored in the same directory. You can verify this by using the ls command and ensuring that th output displays 'DET.c', 'DET.h' and Makefile. 
+Ensure that you have both the DET.c source file and the supporting DET.h header file stored in the same directory. You can verify this by using the ls command and ensuring that the output displays 'DET.c', 'DET.h' and Makefile. 
 
 Before executing the program to calculate the determinant of the matrix, you need to initialize the values by hardcoding them in the executable file on line _______.
 
