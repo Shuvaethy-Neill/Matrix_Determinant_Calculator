@@ -86,3 +86,6 @@ To run the program after compilation enter the following:
     ./DET
 
 The expected output resulting from the execution of the program is the current process that is running, the determinant of the matrix, the largest integer of the matrix, and the time it took to perform all the child process operations.
+
+An example output for the input matrix above would be:
+INSERT HERE
