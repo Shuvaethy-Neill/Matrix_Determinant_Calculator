@@ -79,14 +79,14 @@ To run the program after compilation enter the following:
 The expected output resulting from the execution of the program is the current process that is running, the determinant of the matrix, the largest integer of the matrix, and the time it took to perform all the child process operations.
 
 An example output for the input matrix above would be:
-
-Memory attached at 8E5A3000\
-Child Process: working with element 1 of D\
-Child Process: working with element 2 of D\
+```
+Memory attached at 8E5A3000
+Child Process: working with element 1 of D
+Child Process: working with element 2 of D
 Child Process: working with element 3 of D
 
-ElapsedTime: 174micro sec\
-The largest integer in matrix M is 70\
+ElapsedTime: 174micro sec
+The largest integer in matrix M is 70
 The result determinant of matrix M is 41140!
-
+```
 *Note: the ElapsedTime will vary each time!*
