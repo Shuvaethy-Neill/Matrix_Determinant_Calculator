@@ -7,21 +7,21 @@ DESCRIPTION
 This concurrent program consists of three processes that compute the determinant of a 3x3 matrix of integers and uses Linux shared memory to do so. 
 
 Matrix M is given by:
-
-M =   
-a b c  
-d e f  
-g h i  
+```
+M = a b c  
+    d e f  
+    g h i
+```
 
 The parent process will fork three child processes P1, P2, P3. The computation of the determinant is done by all the three child processes, where P1 computes a(ei-fh), P2 computes b(fg-di), and P3 computes c(dh-eg). The result of each child computation is summed to find the determinant of M. 
 
-The program will print the following:
+#### The program will print the following:
 - the current process that is running
 - the determinant of the matrix
 - the largest integer of the matrix
 - the time it took to perform all the child process operations
 
-The following three files are included:  
+#### The following three files are included:  
 - DET.c
 - DET.h
 - Makefile
@@ -54,12 +54,12 @@ To do so, open the DET.c file using the following command:
     
 The file will be opened with all of its content displayed. You can navigate your cursor through the code by using the up, down, left, and right arrow keys on your keyboard. To edit the values of the matrix M, navigate to the line where it is initialized, and press the 'i' key on you keyboard to enter insert mode. 
 
-For example, if you wanted this matrix:  
-M =   
-20 20 50  
-10  6 70  
-40  3  2  
-    
+For example, if you wanted this matrix: 
+```
+M = 20 20 50 
+    10  6 70  
+    40  3  2  
+```
 then change line 47 to int M [SIZE][SIZE] = {{20, 20, 50}, {10, 6, 70}, {40, 3, 2}};
 
 Once you are done editing the values,  press the 'esc' key on your keyboard to get out of insert mode. Then type the following to save and exit to go back to your directory in the terminal:
