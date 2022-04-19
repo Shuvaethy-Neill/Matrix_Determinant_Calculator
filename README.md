@@ -9,7 +9,7 @@ This concurrent program consists of three processes that compute the determinant
 
 Matrix M is given by:
 
-M = a b c
+M = a b c\n
     d e f
     g h i
 
