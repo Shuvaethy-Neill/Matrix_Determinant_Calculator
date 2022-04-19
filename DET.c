@@ -1,5 +1,3 @@
-/*Assignment 1 SYSC 4001 - Shuvaethy Neill 101143478*/
-
 #include <unistd.h>
 #include <stdlib.h>
 #include <stdio.h>
