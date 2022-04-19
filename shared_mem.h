@@ -1,3 +1,5 @@
+/* Shuvaethy Neill */
+
 #define SIZE 3
 struct shared_use_st {
     bool busy;
