@@ -1,5 +1,5 @@
 # Matrix Determinant Calculator
-Concurrent programming and shared memory
+**Concurrent programming and Linux shared memory**
 
 --------------------------------------------
 DESCRIPTION
@@ -88,4 +88,4 @@ ElapsedTime: 174micro sec
 The largest integer in matrix M is 70
 The result determinant of matrix M is 41140!
 ```
-*Note: the ElapsedTime will vary each time!*
+**Note**: *the ElapsedTime will vary each time!*
