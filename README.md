@@ -26,7 +26,6 @@ The parent process will fork three child processes P1, P2, P3. The computation o
 - DET.h
 - Makefile
 
---------------------------------------------
 INSTALLATION & SETUP
 --------------------------------------------
 You must have access to a Linux operating system in order to execute this program. 
@@ -37,7 +36,7 @@ If you do not have Linux installed on your machine, you can also create and use 
 2. Download Fedora 30 ISO in the newly created virtual machine to be able to run Linux
     - Download link: https://archives.fedoraproject.org/pub/archive/fedora/linux/releases/30/Workstation/x86_64/iso/
 
---------------------------------------------
+
 USAGE
 --------------------------------------------
 Navigate to the directory in which these files are stored. You can do this using the cd command:
